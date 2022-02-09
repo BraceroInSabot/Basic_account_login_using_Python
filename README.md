@@ -1,54 +1,59 @@
 # (Very) Basic Account Login Using Python 
-> Crie uma conta ficticia sem limite de letas ou caracteres para logar em um site também ficticio e depois veja como a sua senha iria ser armazenada no banco de dados!
+> Create a fictitious account with no limit of letters or characters to log into a fictitious site then see how your password would be stored in a database either!
 
-Log com uma conta ficticia e veja como seria armazenada a sua senha.
+Log in with a dummy account and see how your password would be stored.
 
-![Project](fotodoprojetoemandamento.png)
+![Project](project_exec.png)
 
-## Instalação
+## Installation
 
-MAC OS X & Linux:
+1. Install the Visual Studio Code app from Microsoft;
 
-```sh
-npm install --save
+2. Download the .zip file from the repository, clicking on "Code" and then on "Download zip";
+
+3. Extract the file in the folder where it was installed and open Visual Studio Code;
+
+4. With the application open, click on "File", then "Open Folder", and select the location where the zip file was downloaded;
+
+5. Open the folder, click on "main.py" and then on the play button in the upper right corner.
+
+## Utility
+
+This project is intended to be a basic demo.
+
+Contain a very important utility in websites or applications, a account login function.
+
+Use as a basis for your project or draw conclusions from the project!
+
+If you want, add frameworks like Django or Boosttrap in a project with a HTML structure and then use this code as a base to build a function where you can log in and out.
+
+## Virtual Enviroment
+
+Need to have this two Python language libraries:
+
+* random
+* passlib
+
+To make it possible, open cmd on your computer and type:
+
+```
+pip install random
+```
+```
+pip install passlib
 ```
 
-Windows:
+## Patch notes
 
-```sh
-edit autoexec.bat
-```
-
-## Exemplo de uso
-
-Alguns exemplos que motivariam as pessoas a utilizarem seu projeto ou que demonstrasse que este é útil para alguma coisa. Divida esta parte em partes menores e se possível coloque algum código ou prints de telas.
-
-## Ambiente de Desenvolvimento
-
-Descrever como instalar e preparar qualquer dependência de desenvolvimento para que seu projeto possa ser executado localmente e as pessoas possam contribuir com o mesmo.
-
-Se possível forneça as informações para diferentes plataformas, exemplo: Windows, Linux, Mac OS.
-
-## Histórico de Atualizações
-
-* 0.2.0
-    * CHANGE: Atualização dos docs (o código não foi alterado)
-* 0.2.1
-    * CHANGE: Removida a função `setPadraoXYZ()`
-    * ADD: Adicionado a função `inicializar()`
-* 0.2.2
-    * FIX: Crash quando executava `escrever()` (obrigado ao @Contribuidor)
-* 0.2.3
-    * O primeiro lançamento estável
-    * CHANGE: Renomeado de `ProjetoXYZ()`
-     para `ProjetoABC()`
-* 0.2.4
-    * Projeto Inicial
-
+* 0.1.0 (08/02/2022)
+    * Projeto relançado
+    * CHANGE: TypeHinting added to project
+    * CHANGE: Clean code, organized project
+    * CHANGE: README.md file changed
 
 ## Meta
 
-Seu nome - [@SeuTwitter](https://twitter.com/meunome) - seuemail@gmail.com
+Guilherme Bracero Gonzales - [@bracerin](https://twitter.com/bracerin) - guibragon@gmail.com
 
-Distribuído sobre a lincença. Veja `Licença` para mais informações.
-[https://github.com/seuusuario/seuprojeto](https://github.com/seuusuario)
+Distributed for free, provided credits are given
+[https://github.com/BraceroInSabot](https://github.com/BraceroInSabot)
