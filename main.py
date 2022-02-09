@@ -7,15 +7,15 @@ print(Fore.RESET)
 print('First of all you need to login on our server to buy something!\n')
 
 # User Inputs
-name1 = input('username: ')
-email1 = input('e-mail: ')    
-password1 = input('password: ')
+name1: str = str(input('username: '))
+email1: str = str(input('e-mail: '))    
+password1: str = str(input('password: '))
 
 # Inputs Validation
-userinfos = Acc(id, name1, email1, password1)
+userinfos: Acc = Acc(id, name1, email1, password1)
 
 # Logged in confirmation
-print(f"\nCongrats!\nYour are now logged as {userinfos.name} #ID: {userinfos.id}, always check your email for offers!")
+print(f"\nCongrats!\nYour are now logged as {userinfos.name} | #ID: {userinfos.id}, always check your email for offers!")
 print("\nHave a good shop on EBM Market!")
 
 # FF

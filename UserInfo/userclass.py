@@ -3,7 +3,7 @@ from passlib.hash import pbkdf2_sha256 as cryp
 
 class Acc:
 
-    def __init__(self, id, name, email, password):
+    def __init__(self, id: randint, name: str, email: str, password: str):
         self.__id = randint(0, 9999999999)
         self.__name = name
         self.__email = email
